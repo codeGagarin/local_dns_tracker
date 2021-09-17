@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh stancia@172.16.0.20
