@@ -16,7 +16,7 @@ PROJECT_NAME=local_dns_tracker
 echo  'Submit keys'
 scp ~/Projects/$PROJECT_NAME/keys_pr.py stancia@172.16.0.20:~/proj/$PROJECT_NAME/keys.py
 ssh -tt stancia@172.16.0.20 << "EOF"
-cd ~/proj/$PROJECT_NAME/
+cd ~/proj/local_dns_tracker/
 git fetch --all
 git reset --hard origin/master
 echo 'Git Pull -- Ok'
